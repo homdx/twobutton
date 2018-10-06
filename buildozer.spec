@@ -68,7 +68,7 @@ android.arch = armeabi-v7a
 #p4a.source_dir = /home/kivy/Repos/python-for-android/
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86
-android.arch = armeabi
+#android.arch = armeabi
 
 
 [buildozer]
