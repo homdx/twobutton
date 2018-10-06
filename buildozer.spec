@@ -27,7 +27,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = kivy==1.10.1,android,python3crystax
+requirements = kivy==1.10.1,android,git+https://github.com/HeaTTheatR/KivyMD.git,python3crystax
 
 # (str) Presplash of the application
 presplash.filename = %(source.dir)s/assets/presplash.png
