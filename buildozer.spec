@@ -30,7 +30,7 @@ version = 0.1
 requirements = kivy==1.9.1,android,git+https://github.com/HeaTTheatR/KivyMD.git,python3crystax
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/assets/presplash.png
+#presplash.filename = %(source.dir)s/assets/presplash.png
 android.presplash_color = #FFFFFF
 
 # (str) Icon of the application
