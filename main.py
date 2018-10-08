@@ -1,6 +1,7 @@
 from kivy.app import App
 from kivy.factory import Factory
 from kivy.lang import Builder
+from sys import version_info
 
 Builder.load_string("""
 <MyActivity@BoxLayout>:
@@ -27,7 +28,7 @@ class MyApp(App):
     def press_button(self, instance, text):
         # instance.text = 'Я нажата'
         self.activity.ids.text_input.text = self.activity.ids.text_input.text + '%s\n' % text
-
+        self.activity.ids.text_input.text = self.activity.ids.text_input.text + '%s\n' % str(version_info)
 
 if __name__ == "__main__":
     MyApp().run()
