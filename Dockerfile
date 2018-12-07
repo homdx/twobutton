@@ -10,8 +10,8 @@ RUN sudo chown user ${HOME_DIR}/testapp -Rv
 #USER ${USER}
 
 #Add after RUN sudo chown user ${WORK_DIR}/app2 -Rv
-ARG KIVYMDSTORE_VERSION=0.0.2
-ARG KIVYMDSTORE_HASH=b80303c87d20f088531e6fbdc050550bb4c0ebaa0f5c6b665a98569884f6156b
+ARG KIVYMDSTORE_VERSION=0.0.3
+ARG KIVYMDSTORE_HASH=80924a8580e6bdcdb44eb84e686bbc6b1a29bdf3dd2aa10416608721908883eb
 
 RUN cd ${HOME_DIR}/testapp && set -ex \
 && wget https://github.com/homdx/twobutton/releases/download/${KIVYMDSTORE_VERSION}/dot-buildozer.tar.gz \
